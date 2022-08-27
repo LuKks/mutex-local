@@ -1,0 +1,29 @@
+{
+  "name": "mutex-local",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && brittle test.mjs",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuKks/mutex-local.git"
+  },
+  "author": "Lucas Barrena (@LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/mutex-local/issues"
+  },
+  "homepage": "https://github.com/LuKks/mutex-local",
+  "dependencies": {
+    "fs-native-extensions": "^1.1.0",
+    "mutexify": "^1.4.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.1.0",
+    "standard": "^17.0.0",
+    "tempy": "^3.0.0"
+  }
+}
