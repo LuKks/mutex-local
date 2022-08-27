@@ -17,7 +17,6 @@ console.log('here do a synced operation between multiple process')
 await mutex.unlock()
 ```
 
-## Usage
 ```javascript
 const mutex = mutexLocal('./filename.lock')
 
