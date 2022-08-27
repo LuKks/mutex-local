@@ -49,6 +49,10 @@ Default options:
 
 Options are the same as for `waitForLock([options])`.
 
+#### `await mutex.unlock()`
+
+Release the lock.
+
 #### `mutex.locked`
 
 Boolean that indicates if mutex is locked or not.
