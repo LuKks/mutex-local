@@ -1,6 +1,6 @@
 # mutex-local
 
-Mutex lock for multi-process synchronization (i.e. multi-writing).
+Mutex lock for multi-process synchronization.
 
 ```
 npm i mutex-local
