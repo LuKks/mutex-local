@@ -18,9 +18,8 @@ await mutex.unlock()
 ```
 
 ```javascript
-const mutex = mutexLocal('./filename.lock')
-
-if (await mutex.tryLock()) {
+const granted = await mutex.tryLock()
+if (granted) {
   console.log('here do a synced operation between multiple process')
   await mutex.unlock()
 }
